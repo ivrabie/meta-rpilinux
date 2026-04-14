@@ -1,0 +1,11 @@
+[patch.crates-io]
+example_interfaces = { path = "@ROS_SYSROOT_SHARE@/example_interfaces/rust" }
+builtin_interfaces = { path = "@ROS_SYSROOT_SHARE@/builtin_interfaces/rust" }
+action_msgs = { path = "@ROS_SYSROOT_SHARE@/action_msgs/rust" }
+service_msgs = { path = "@ROS_SYSROOT_SHARE@/service_msgs/rust" }
+unique_identifier_msgs = { path = "@ROS_SYSROOT_SHARE@/unique_identifier_msgs/rust" }
+rosgraph_msgs = { path = "@ROS_SYSROOT_SHARE@/rosgraph_msgs/rust" }
+test_msgs = { path = "@ROS_SYSROOT_SHARE@/test_msgs/rust" }
+rcl_interfaces = { path = "@ROS_SYSROOT_SHARE@/rcl_interfaces/rust" }
+type_description_interfaces = { path = "@ROS_SYSROOT_SHARE@/type_description_interfaces/rust" }
+rmw_dds_common = { path = "@ROS_SYSROOT_SHARE@/rmw_dds_common/rust" }
